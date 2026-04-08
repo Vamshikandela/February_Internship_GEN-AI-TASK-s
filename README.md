@@ -40,7 +40,7 @@ Created a template that accepts:
 
 ---
 
-### ✅ Task 3: Prompt Variations Engine
+###  Task 3: Prompt Variations Engine
 Designed multiple prompt styles:
 - Teaching
 - Interview
@@ -93,6 +93,6 @@ User Input → Validation → Prompt Template → Generated Output
 -- 👤 Author
 
 Vamshi
-Aspiring Data Scientist
-Focused on building real-world AI projects
-Interested in Generative AI and Machine Learning
+- Aspiring Data Scientist
+- Focused on building real-world AI projects
+- Interested in Generative AI and Machine Learning
