@@ -31,20 +31,20 @@ Confidence Check
  ↓               ↓
 Answer       Escalation (HITL)
 ## 🏗️ Project Structure
-   Rag_Support_Assistant/
-   │
-   ├── main.py                # Entry point
-   ├── rag_pipeline.py        # RAG logic (retrieval + generation)
-   ├── graph_workflow.py      # LangGraph workflow (routing logic)
-   ├── hitl.py                # Human escalation logic
-   ├── utils.py               # Helper functions (logging, etc.)
-   │
-   ├── knowledge_base.pdf     # Sample knowledge base
-   ├── create_sample_pdf.py   # Script to generate sample PDF
-   │
-   ├── chroma_db/             # Vector database (auto-generated)
-   ├── requirements.txt       # Dependencies
-   └── README.md              # Project documentation
+         Rag_Support_Assistant/
+         │
+         ├── main.py                # Entry point
+         ├── rag_pipeline.py        # RAG logic (retrieval + generation)
+         ├── graph_workflow.py      # LangGraph workflow (routing logic)
+         ├── hitl.py                # Human escalation logic
+         ├── utils.py               # Helper functions (logging, etc.)
+         │
+         ├── knowledge_base.pdf     # Sample knowledge base
+         ├── create_sample_pdf.py   # Script to generate sample PDF
+         │
+         ├── chroma_db/             # Vector database (auto-generated)
+         ├── requirements.txt       # Dependencies
+         └── README.md              # Project documentation
 ## ⚙️ Tech Stack
 - Python
 - LangChain
