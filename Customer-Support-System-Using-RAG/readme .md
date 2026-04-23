@@ -30,7 +30,7 @@ Confidence Check
  ┌───────────────┬───────────────┐
  ↓               ↓
 Answer       Escalation (HITL)
-## 🏗️ Project Structure
+##  Project Structure
          Rag_Support_Assistant/
          │
          ├── main.py                # Entry point
@@ -45,7 +45,7 @@ Answer       Escalation (HITL)
          ├── chroma_db/             # Vector database (auto-generated)
          ├── requirements.txt       # Dependencies
          └── README.md              # Project documentation
-## ⚙️ Tech Stack
+##  Tech Stack
 - Python
 - LangChain
 - LangGraph
@@ -83,20 +83,20 @@ How can I send back a product?
 - Escalation triggered (HITL)
 
 ## Conditional Routing Logic
-  The system decides between answering and escalation based on:
-      - Confidence score (similarity threshold)
-     -  Detection of uncertain responses (e.g., "I don't know")
-            if confidence < threshold or "i don't know" in answer.lower():
-                escalate = True
+      The system decides between answering and escalation based on:
+          - Confidence score (similarity threshold)
+         -  Detection of uncertain responses (e.g., "I don't know")
+                if confidence < threshold or "i don't know" in answer.lower():
+                    escalate = True
 ## Human-in-the-Loop (HITL)
    - Triggered when system is not confident
    - Simulated using predefined response
    - Ensures reliability of system
 ## Limitations
 - Supports only single PDF
-  - CLI-based (no UI)
-  -  No real human integration (simulated HITL)
-    -  No conversation memory
+- CLI-based (no UI)
+- No real human integration (simulated HITL)
+- No conversation memory
   ##  Future Improvements
       - Multi-document support
      -  Streamlit/Web UI
