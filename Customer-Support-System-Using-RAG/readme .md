@@ -86,8 +86,8 @@ How can I send back a product?
 The system decides between answering and escalation based on:
 - Confidence score (similarity threshold)
 -  Detection of uncertain responses (e.g., "I don't know")
-     if confidence < threshold or "i don't know" in answer.lower():
-      escalate = True
+           if confidence < threshold or "i don't know" in answer.lower():
+            escalate = True
 ## Human-in-the-Loop (HITL)
    - Triggered when system is not confident
    - Simulated using predefined response
