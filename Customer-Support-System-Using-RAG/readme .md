@@ -8,13 +8,13 @@
 ![HITL](https://img.shields.io/badge/System-HITL-blueviolet)
 
 
-# 🚀 RAG-Based Customer Support Assistant
+#  RAG-Based Customer Support Assistant
 
 ### (LangGraph + Human-in-the-Loop Escalation)
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements a **Retrieval-Augmented Generation (RAG)** based customer support assistant that answers user queries from a PDF knowledge base.
 
@@ -27,18 +27,18 @@ The system uses:
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-* 📄 Load and process PDF knowledge base
-* 🔍 Semantic retrieval using embeddings
-* 🤖 Context-aware answer generation (LLM)
-* 🔀 Conditional routing using LangGraph
-* 🚨 Human-in-the-loop escalation for low confidence
-* 💻 CLI-based interactive interface
+*  Load and process PDF knowledge base
+*  Semantic retrieval using embeddings
+* Context-aware answer generation (LLM)
+*  Conditional routing using LangGraph
+*  Human-in-the-loop escalation for low confidence
+* CLI-based interactive interface
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```text
 User Query
@@ -58,7 +58,7 @@ Answer       Escalation (HITL)
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 Rag_Support_Assistant/
@@ -79,7 +79,7 @@ Rag_Support_Assistant/
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Python
 * LangChain
@@ -90,7 +90,7 @@ Rag_Support_Assistant/
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the repository
 
@@ -126,7 +126,7 @@ set GROQ_API_KEY=your_api_key_here
 
 ---
 
-## 📄 Generate Sample PDF (Optional)
+##  Generate Sample PDF (Optional)
 
 ```bash
 python create_sample_pdf.py
@@ -134,7 +134,7 @@ python create_sample_pdf.py
 
 ---
 
-## 🧱 Build Vector Store
+##  Build Vector Store
 
 ```bash
 python main.py --build
@@ -142,7 +142,7 @@ python main.py --build
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 ```bash
 python main.py
@@ -150,39 +150,39 @@ python main.py
 
 ---
 
-## 🧪 Example Queries
+##  Example Queries
 
-### ✅ Relevant Query
+###  Relevant Query
 
 ```text
 How do I return a product?
 ```
 
-✔ System retrieves correct answer
+System retrieves correct answer
 
 ---
 
-### 🔄 Paraphrased Query
+###  Paraphrased Query
 
 ```text
 How can I send back a product?
 ```
 
-✔ Semantic retrieval works
+ Semantic retrieval works
 
 ---
 
-### ❌ Irrelevant Query
+###  Irrelevant Query
 
 ```text
 What is AI?
 ```
 
-🚨 Escalation triggered (HITL)
+ Escalation triggered (HITL)
 
 ---
 
-## 🔀 Conditional Routing Logic
+##  Conditional Routing Logic
 
 The system decides between answering and escalation based on:
 
@@ -196,7 +196,7 @@ if confidence < threshold or "i don't know" in answer.lower():
 
 ---
 
-## 🚨 Human-in-the-Loop (HITL)
+##  Human-in-the-Loop (HITL)
 
 * Triggered when system is not confident
 * Simulated using predefined response
@@ -204,7 +204,7 @@ if confidence < threshold or "i don't know" in answer.lower():
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * Supports only single PDF
 * CLI-based (no UI)
@@ -213,7 +213,7 @@ if confidence < threshold or "i don't know" in answer.lower():
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Multi-document support
 * Streamlit/Web UI
@@ -223,7 +223,7 @@ if confidence < threshold or "i don't know" in answer.lower():
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 * RAG pipeline design
 * Vector databases and embeddings
@@ -233,15 +233,15 @@ if confidence < threshold or "i don't know" in answer.lower():
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates a complete **RAG-based system** with retrieval, generation, decision-making, and escalation. It combines practical implementation with system design concepts, making it suitable for real-world customer support automation.
 
 ---
 
-## 🙌 Author
+##  Author
 
-**Sai B**
-CSE Graduate | Data Science Enthusiast
+**K.Vamshi**
+BSc Graduate | Data Science Enthusiast
 
 ---
