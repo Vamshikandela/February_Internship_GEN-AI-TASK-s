@@ -1,7 +1,7 @@
 # RAG-Based Customer Support Assistant
-(LangGraph + Human-in-the-Loop Escalation)
+### (LangGraph + Human-in-the-Loop Escalation)
 # Overview
-# This project implements a Retrieval-Augmented Generation (RAG) based customer support assistant that answers user queries from a PDF knowledge base.
+### This project implements a Retrieval-Augmented Generation (RAG) based customer support assistant that answers user queries from a PDF knowledge base.
 
 ## The system uses:
 
@@ -53,26 +53,26 @@ Answer       Escalation (HITL)
 - HuggingFace Embeddings
 - Groq LLM
   ### Setup & Installation
-- 1. Clone the repository
-git clone <your-repo-link>
-cd Rag_Support_Assistant
-- 2. Create virtual environment
-- python -m venv venv
-- venv\Scripts\activate   # Windows
-- 3. Install dependencies
-pip install -r requirements.txt
-- 4. Set API Key (Groq)
-- set GROQ_API_KEY=your_api_key_here
--  Generate Sample PDF (Optional)
-- python create_sample_pdf.py
--  Build Vector Store
-- python main.py --build
--  Run the Application
-- python main.py
--  Example Queries
-- Relevant Query
-- How do I return a product?
-- System retrieves correct answer
+### 1. Clone the repository
+      git clone <your-repo-link>
+      cd Rag_Support_Assistant
+  ### 2. Create virtual environment
+         python -m venv venv
+        venv\Scripts\activate   # Windows
+  ### 3. Install dependencies
+         pip install -r requirements.txt
+### 4. Set API Key (Groq)
+         set GROQ_API_KEY=your_api_key_here
+  ### Generate Sample PDF (Optional)
+         python create_sample_pdf.py
+   ### Build Vector Store
+         python main.py --build
+  ### Run the Application
+         python main.py
+###  Example Queries
+-        Relevant Query
+-        How do I return a product?
+-        System retrieves correct answer
 
 ##  Paraphrased Query
 How can I send back a product?
