@@ -83,7 +83,7 @@ How can I send back a product?
 - Escalation triggered (HITL)
 
 ## Conditional Routing Logic
-      The system decides between answering and escalation based on:
+  The system decides between answering and escalation based on:
       - Confidence score (similarity threshold)
      -  Detection of uncertain responses (e.g., "I don't know")
             if confidence < threshold or "i don't know" in answer.lower():
