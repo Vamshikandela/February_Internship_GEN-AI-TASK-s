@@ -83,9 +83,9 @@ How can I send back a product?
 - Escalation triggered (HITL)
 
 ## Conditional Routing Logic
-      The system decides between answering and escalation based on:
-          - Confidence score (similarity threshold)
-         -  Detection of uncertain responses (e.g., "I don't know")
+  The system decides between answering and escalation based on:
+   - Confidence score (similarity threshold)
+    -  Detection of uncertain responses (e.g., "I don't know")
                 if confidence < threshold or "i don't know" in answer.lower():
                     escalate = True
 ## Human-in-the-Loop (HITL)
@@ -98,7 +98,7 @@ How can I send back a product?
 - No real human integration (simulated HITL)
 - No conversation memory
   ##  Future Improvements
-      - Multi-document support
+     - Multi-document support
      -  Streamlit/Web UI
      -  Chat history (memory)
      -  Real-time human escalation
