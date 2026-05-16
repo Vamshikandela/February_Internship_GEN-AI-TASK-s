@@ -119,5 +119,5 @@ grocery-api/
 
 ## 📌 Author
 
-Emmadi srikar
+Kandela Vamshi
 Aspiring Data Scientist | FastAPI
