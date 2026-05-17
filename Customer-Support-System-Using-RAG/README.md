@@ -241,7 +241,7 @@ This project demonstrates a complete **RAG-based system** with retrieval, genera
 
 ## 🙌 Author
 
-**Sai B**
-CSE Graduate | Data Science Enthusiast
+**Kandela Vamshi**
+B.sc(Data Science) | Data Science Enthusiast
 
 ---
